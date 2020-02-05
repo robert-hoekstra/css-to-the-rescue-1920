@@ -1,79 +1,87 @@
-:root {
-  --dark: #000;
-  --course: #F4E408;
-  --light: #fff;
-}
-body {
-  background-color: var(--dark);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-  color: var(--light);
-  font-family: monospace;
-  font-size: 1.5em;
-  line-height: 1.5;
-  margin: 0;
-}
-main {
-  max-width: 800px;
-  margin: 10vh auto;
-}
-header {
-  background: var(--course);
-  color: var(--dark);
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h1 {
-  font-size: 5em;
-}
-h2 {
-  font-size: 2em;
-  margin-top: 1.5em;
-}
-ul {
-  display: flex;
-  /flex-wrap: wrap;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-  margin: 0 -1rem;
-}
-ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem;
-}
-ul img {
-  border: 2px solid var(--light);
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-img {
-  max-width: 100%;
+* {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  box-sizing: border-box;
+  transition: 0.5s;
+  
+
 }
 
-section#lecturers img {
-  border-radius: 100%;
-  margin-right: 1em;
+html{
+  padding: 2%;
 }
 
-.button {
-  background: var(--light);
-  color: var(--dark);
-  padding: 1em;
+body{
+  background-color: black;
+  width: 80%;
+  margin: auto;
+
 }
 
-.examples img {
-  max-width: 25vh;
+body > header{
+  background-color: rgb(26, 26, 26);
+  border-bottom: lavender solid 10px;
+  border-left:lavender solid 10px;
+  border-right: lavender solid 10px;
+  border-top: lavender solid 10px;
+  border-style: dotted;
+  animation: flicker 3s linear infinite;
+  transition:all .5s ease;
+  background:transparent;
+  padding: 2%;
 }
 
-a,
-a:visited {
-  color: var(--course);
+header{
+  border: lavender solid 10px;
+  padding: 2%;
 }
 
-footer {
+p{
   font-style: italic;
+  text-transform: capitalize;
 }
+
+main{
+  padding-top: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+
+article{
+  border-bottom: dashed lavender 2px;
+}
+section{
+  background-color: black;
+  flex: 1 1;
+  padding: 1em;
+  min-width: 20em;
+  /* padding: 20px; */
+}
+
+h1,h2,h3,h4,h5,h6{
+font-size: 2em;
+text-transform: capitalize;
+}
+
+h1{
+  font-size:4em;
+  line-height: 1.4em;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+header:hover{
+  background: rgb(255, 208, 0);
+
+}
+    @keyframes flicker {
+      0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: 1;
+        border-color: rgb(255, 208, 0);
+      }
+      20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+        border-color: white;
+      }
+    }
