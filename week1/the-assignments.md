@@ -8,7 +8,7 @@ On this page we explain the assignments, the contexts, the restrictions and the 
 
 Choose _one_ of these assignments.
 
-- ( ) Responsive restauraunt menu [Here’s some raw HTML you may use](../assignments/menu.html)
+- (x) Responsive restauraunt menu [Here’s some raw HTML you may use](../assignments/menu.html)
 - ( ) One art directed responsive web page for a magazine on the web. [Here’s some example HTML](../assignments/print-article.html)
 - ( ) Have a better idea? Nice! Pitch it to us.
 
@@ -18,9 +18,9 @@ _You can use the provided content and HTML, or you can create your own. Of cours
 
 You have to add two extra contexts to your site
 
-- [ ] print-stylesheet
+- [x] print-stylesheet
 - [ ] prefers-reduced-motion
-- [ ] dark-mode
+- [x] dark-mode
 - [ ] input type
 - [ ] <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">pick a better one</a>
 
@@ -34,10 +34,10 @@ You have to work with _at least_ two of these restrictions.
 - [ ] No squares, no rectangles, no circles, no triangles
 - [ ] Design must be visually appealing and it must meet <a href="https://www.w3.org/TR/WCAG20/#guidelines">Level AAA conformance</a> of the WCAG.
 - [ ] Solar powered website
-- [ ] Responsive without media queries
-- [ ] Design responds to weather/time
+- [x] Responsive without media queries
+- [x] Design responds to weather/time
 - [ ] Design responds to connectivity
-- [ ] Design responds to battery level
+- [x] Design responds to battery level
 - [ ] Design responds to language setting
 - [ ] Design responding language setting / Japanese / English / Greek / Mongolian
 - [ ] Create a great experience only with pop-ups, advertising banners and carousels!
