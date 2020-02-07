@@ -12,13 +12,6 @@
   * [Two restrictions I picked](#two-restrictions-i-picked)
   * [The *Selector First* CSS Methodology](#the--selector-first--css-methodology)
 - [Progress](#progress)
-  * [Table of Contents](#table-of-contents)
-  * [Day 1](#day-1)
-  * [Day 2](#day-2)
-  * [Day 3](#day-3)
-  * [Day 4](#day-4)
-  * [Day 5](#day-5)
-  * [Day 6](#day-6)
   * [Resources](#resources)
 
 # The assignments
@@ -64,6 +57,12 @@ I _have_ to work with the so called *Selector First* CSS Methodology. This means
 # Progress
 
 ## Table of Contents
+  * [Day 1](#day-1)
+  * [Day 2](#day-2)
+  * [Day 3](#day-3)
+  * [Day 4](#day-4)
+  * [Day 5](#day-5)
+  * [Day 6](#day-6)
 
 ## Day 1
 Today I chose my assignment and picked out the constraints and contexts that make a nice challenge together. I want to make an online restaurant menu that is dynamic. It's visual behaviour changes upon the battery level and time of the day.
