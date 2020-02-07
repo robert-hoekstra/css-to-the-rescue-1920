@@ -1,3 +1,4 @@
+![poster](https://github.com/robert-hoekstra/css-to-the-rescue-1920/blob/master/images/poster.jpeg?raw=true)
 # Css to the rescue! 🦸🏼‍♂️
  This course is part of the Web Development Minor.
  The goal of the course is to learn all the unknown parts of CSS
