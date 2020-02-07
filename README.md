@@ -1,64 +1,52 @@
-# CSS to the Rescue @cmda-minor-web 19-20
+# Css to the rescue! 🦸🏼‍♂️
+ This course is part of the Web Development Minor.
+ The goal of the course is to learn all the unknown parts of CSS
 
-_This course is in English_
+# The assignments
 
-In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using CSS and SVG. No Javascrpt allowed.
+We think the web is an exciting place. In recent years CSS has become an incredibly powerful language. Many of its possibiliets haven’t been explored in full yet. Some parts of the CSS spec are largely ignored, while others are so big and powerful that we don’t yet understand what we can do with it. To you the fun task of exploring the uncharted parts of CSS.
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+On this page we explain the assignments, the contexts, the restrictions and the methodlogy we want you to work with.
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+## Choose one assignment
 
-## Programm
+Choose _one_ of these assignments.
 
-### Week 1 - 👁 C what you did there
+- (x) Responsive restauraunt menu [Here’s some raw HTML you may use](../assignments/menu.html)
+- ( ) One art directed responsive web page for a magazine on the web. [Here’s some example HTML](../assignments/print-article.html)
+- ( ) Have a better idea? Nice! Pitch it to us.
 
-[See all the details of week 1 here](week1/).
+_You can use the provided content and HTML, or you can create your own. Of course you are allowed to change the HTML when needed._
 
-Goals of this week: 
+## Add _two_ contexts
 
-- Be inspired
-- Discuss hot CSS topics.
-- Get going!
+You have to add two extra contexts to your site
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
+- [x] print-stylesheet
+- [ ] prefers-reduced-motion
+- [x] dark-mode
+- [x] input type
+- [x] <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">pick a better one</a>
 
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
+## Pick two restrictions
 
-### Week 2 - Create Stuff, 🙃 Smile 
+You have to work with _at least_ two of these restrictions.
 
-This week’s goals: Moar inspiration, create stuff, break stuff, and learn from each other.
+- [ ] When SVG meets CSS: Shapes / Masks / SVG
+- [x] Two colours
+- [ ] Less than 5kb CSS *(not as an excuses for lazyness, hahaha)*
+- [ ] No squares, no rectangles, no circles, no triangles
+- [ ] Design must be visually appealing and it must meet <a href="https://www.w3.org/TR/WCAG20/#guidelines">Level AAA conformance</a> of the WCAG.
+- [ ] Solar powered website
+- [x] Responsive without media queries
+- [x] Design responds to weather/time
+- [ ] Design responds to connectivity
+- [x] Design responds to battery level
+- [ ] Design responds to language setting
+- [ ] Design responding language setting / Japanese / English / Greek / Mongolian
+- [ ] Create a great experience only with pop-ups, advertising banners and carousels!
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
+## The *Selector First* CSS Methodology
 
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
-
-### Week 3 - 🎪 Show time
-
-Goals: Blow us away.
-
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+You _have_ to work with the so called *Selector First* CSS Methodology. This means that you _have to_ use a wide variety of CSS selectors. ID’s are only allowed to trigger the `:target` selector. If you really need them, you are allowed to use a few classes. In order to differentiate between 
+srytgyythyy
