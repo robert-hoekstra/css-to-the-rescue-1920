@@ -1,6 +1,6 @@
 
 # Css to the rescue! 🦸🏼‍♂️
-![poster](https://github.com/robert-hoekstra/css-to-the-rescue-1920/blob/master/images/poster.jpeg?raw=true)
+![https://robert-hoekstra.github.io/css-to-the-rescue-1920/](https://github.com/robert-hoekstra/css-to-the-rescue-1920/blob/master/images/poster.jpeg?raw=true)
  This course is part of the Web Development Minor.
  The goal of the course is to learn all the unknown parts of CSS
 
