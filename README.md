@@ -96,6 +96,31 @@ No Content
 ## Day 6
 No Content
 
+# Explore!
+New explorations in the world of CSS
+
+## What worked
+This is a short list of stuff that is new to me and worked!
+
+* ::first-letter
+* hyphens
+* transform
+* translate
+* keyframes
+* :: Out-of-Range
+* :: In-Range
+* Blend Screen
+* Flex
+* Flex Wrap
+* SVG Background
+* Text-Transform
+* nth- of type
+* :focus
+
+## What did not work
+This is a short list of stuff that is now to me but did not work!
+
+
 ## Resources
 [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)

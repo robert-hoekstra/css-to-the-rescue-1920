@@ -1,27 +1,30 @@
-/* Remove unwanted elements */
-#header, #nav, .noprint
-{
-display: none;
+
+@media print {
+
+* {
+    font-size:1em;
+    line-height: 1.4em ;
 }
 
-/* Ensure the content spans the full width */
-#container, #container2, #content
-{
-width: 100%; margin: 0; float: none;
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
 }
 
-/* Change text colour to black (useful for light text on a dark background) */
-.lighttext
-{
-color: #000
+main section{
+    width: 50%;
 }
 
-/* Improve colour contrast of links */
-a:link, a:visited
-{
-color: #781351
-}
 
-html{
-    color: blue;
+@page :left {
+    bleed: 10pt;	
+  }
+  
+  @page :top {
+    bleed: 5cm;	
+  }
+
 }
