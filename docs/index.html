@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -12,7 +13,10 @@
 	<title>A restaurant menu</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.css" >
+
+	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,22 +24,19 @@
 	<header>
 		<h1><span>Russ</span> <span>&</span> <span>Daughters</span></h1>
 		<p>appetizing since 1924</p>
+
 	</header>
 
-	<section>
-		<h1>Who are you?</h1>
-		<label for="herbivor">Herbivor</label>
-		<input id="herbivor" type="radio" name="typeEater">
-
-		<label for="carnivor">Carnivor</label>
-		<input id="carnivor" type="radio" name="typeEater">
-
-		<label for="vegan">Vegan</label>
-		<input id="vegan" type="radio" name="typeEater">
-	</section>
 
 
-	<main>
+	<h1>Our menu</h1>
+	<label for="toggle">Only show vegan options? Press here -></label>
+	<input type="checkbox" id="toggle" name="yes">
+
+
+
+
+	<main class="control-me">
 		<section>
 			<header>
 				<h2>Noshes</h2>
@@ -226,8 +227,6 @@
 
 			</section>
 		</section>
-
-
 		<section>
 			<header>
 				<h2>Soup</h2>
@@ -261,7 +260,6 @@
 			</section>
 
 		</section>
-
 		<section>
 			<header>
 				<h2>salads</h2>
@@ -288,9 +286,6 @@
 				</article>
 			</section>
 		</section>
-
-
-
 		<section>
 			<header>
 				<h2>sweet</h2>
@@ -359,17 +354,20 @@
 		<h2>Got something to share with us?</h2>
 		<h3>What is your message about?</h3>
 		<fieldset>
+			
 			<label for="">New Item</label>
-			<input type="radio" value="newrecept">
+			<input type="radio" value="newrecept" name="selectieEen">
+
 			<label for="">Something Else</label>
-			<input type="radio" value="radio">Something Else
+			<input type="radio" value="somethingelse" name="selectieEen">
+
 		</fieldset>
 		<fieldset>
 			<legend>Personalia:</legend>
 			<label for="">First Name:</label>
 			<input type="text">
 			<label for="">Last Name</label>
-			<input type="text>
+			<input type="text">
     </fieldset>
     <fieldset>
       <textarea name=" comment" form="usrform">Enter text here...</textarea>
