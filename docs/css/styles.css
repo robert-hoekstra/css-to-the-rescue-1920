@@ -103,7 +103,6 @@ section section {
   color: black;
   animation: none;
   border: black double 10px;
-
 }
 
 h1,
@@ -138,17 +137,16 @@ main header:hover {
   border-style: solid;
 }
 
-input{
+input {
   transition: 2s;
   width: 80%;
   margin: auto;
-
 }
 
-input[type=text]{
+input[type="text"] {
   width: 100px;
   height: 100px;
-margin-left: 40%;
+  margin-left: 40%;
   display: inline-block;
   /* border: 10em solid #ccc; */
   border-radius: 50%;
@@ -158,10 +156,10 @@ margin-left: 40%;
   direction: rtl;
 }
 
-input[type=text]:focus{
+input[type="text"]:focus {
   width: 100px;
   height: 100px;
-margin-left: 40%;
+  margin-left: 40%;
   display: inline-block;
   /* border: 10em solid #ccc; */
   border-radius: 50%;
@@ -171,22 +169,20 @@ margin-left: 40%;
   direction: rtl;
 }
 
-label{
+label {
   display: block;
 }
 
 input:in-range {
-
   border: rgb(204, 0, 0) solid 20px;
   display: none;
-
 }
 
-input:out-of-range{
+input:out-of-range {
   border: red solid 10px;
 }
 
-body form:first-of-type{
+body form:first-of-type {
   min-height: 100vh;
   min-width: 100vw;
   z-index: 1;
@@ -196,22 +192,20 @@ body form:first-of-type{
   background-color: red;
 }
 
-body form:first-of-type:valid{
-display: none;
+body form:first-of-type:valid {
+  display: none;
 }
 
-:target{
+:target {
   background-color: white;
   color: black;
   border: solid 3px black;
   animation: flicker 3s infinite;
 }
 
-a{
+a {
   color: white;
 }
-
-
 
 main > a {
   flex: 0 0 25%;
@@ -219,13 +213,12 @@ main > a {
   display: flex;
 }
 
-
-body form:first-of-type input{
+body form:first-of-type input {
   transition: 0s;
   width: 500px;
   height: 500px;
-margin-left: 40%;
-border: solid black 20px;
+  margin-left: 40%;
+  border: solid black 20px;
   display: inline-block;
   /* border: 10em solid #ccc; */
   border-radius: 50%;
@@ -236,7 +229,7 @@ border: solid black 20px;
   font-size: 3em;
   text-align: center;
   font-weight: 900;
-  }
+}
 
 section:hover {
   animation: none;
@@ -270,8 +263,9 @@ form fieldset {
 form textarea {
   min-width: 50%;
   min-height: 20em;
-}
-r footer {
+} 
+
+footer {
   display: flex;
   flex-wrap: wrap;
   background: white;
@@ -300,7 +294,6 @@ footer img {
   64.999%,
   70%,
   100% {
-    /* opacity: 1; */
     border-color: rgb(255, 208, 0);
   }
   20%,
@@ -309,7 +302,6 @@ footer img {
   63.999%,
   65%,
   69.999% {
-    /* opacity: 0.4; */
     text-shadow: none;
     border-color: rgba(255, 255, 255, 0.178);
   }
@@ -372,85 +364,89 @@ footer img {
   }
 }
 
-@keyframes cursorchange{
-  0%{
+@keyframes cursorchange {
+  0% {
     cursor: url(../../images/cursor/fish0.png), auto;
-
-  }4.15%{
+  }
+  4.15% {
     cursor: url(../../images/cursor/fish15.png), auto;
-
-  }8.30%{
+  }
+  8.30% {
     cursor: url(../../images/cursor/fish30.png), auto;
-
-  }12.45%{
+  }
+  12.45% {
     cursor: url(../../images/cursor/fish45.png), auto;
-
-  }16.60%{
+  }
+  16.60% {
     cursor: url(../../images/cursor/fish60.png), auto;
-
-  }20.75%{
+  }
+  20.75% {
     cursor: url(../../images/cursor/fish75.png), auto;
-
-  }24.90%{
+  }
+  24.90% {
     cursor: url(../../images/cursor/fish90.png), auto;
-
-  }29.05%{
+  }
+  29.05% {
     cursor: url(../../images/cursor/fish105.png), auto;
-
-  }33.20%{
+  }
+  33.20% {
     cursor: url(../../images/cursor/fish120.png), auto;
-
-  }37.35%{
+  }
+  37.35% {
     cursor: url(../../images/cursor/fish135.png), auto;
-
-  }41.50%{
+  }
+  41.50% {
     cursor: url(../../images/cursor/fish150.png), auto;
-
-  }45.65%{
+  }
+  45.65% {
     cursor: url(../../images/cursor/fish165.png), auto;
-
-  }49.80%{
+  }
+  49.80% {
     cursor: url(../../images/cursor/fish180.png), auto;
-
-  }53.95%{
+  }
+  53.95% {
     cursor: url(../../images/cursor/fish195.png), auto;
-
-  }58.10%{
+  }
+  58.10% {
     cursor: url(../../images/cursor/fish210.png), auto;
-
-  }62.25%{
+  }
+  62.25% {
     cursor: url(../../images/cursor/fish225.png), auto;
-
-  }66.40%{
+  }
+  66.40% {
     cursor: url(../../images/cursor/fish240.png), auto;
-
-  }70.55%{
+  }
+  70.55% {
     cursor: url(../../images/cursor/fish255.png), auto;
-    
-  }74.70%{
+  }
+  74.70% {
     cursor: url(../../images/cursor/fish270.png), auto;
-
-  }78.85%{
+  }
+  78.85% {
     cursor: url(../../images/cursor/fish285.png), auto;
-
-  }83%{
+  }
+  83% {
     cursor: url(../../images/cursor/fish300.png), auto;
-
-  }87.15%{
+  }
+  87.15% {
     cursor: url(../../images/cursor/fish315.png), auto;
-
-  }91.30%{
+  }
+  91.30% {
     cursor: url(../../images/cursor/fish330.png), auto;
-
-  }95.45%{
+  }
+  95.45% {
     cursor: url(../../images/cursor/fish345.png), auto;
-
-  }100%{
+  }
+  100% {
     cursor: url(../../images/cursor/fish360.png), auto;
-
   }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .textColor  { color:red; }
+
+
+
+@media print {
+  *{
+    color: red;
+  }
 }

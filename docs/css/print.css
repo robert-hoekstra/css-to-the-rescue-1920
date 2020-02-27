@@ -1,30 +1,90 @@
-
-@media print {
-
-* {
-    font-size:1em;
-    line-height: 1.4em ;
+*{
+  font-size: 1em;
+  color: black;
 }
 
+html{
+  background-color: white;
+}
+
+body{
+  width: 100%;
+  margin: auto;
+}
+
+:target{
+  animation: none;
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-size: 0.5em;
+}
+
+h1{
+  font-size: 2em;
+}
 
 main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: stretch;
-}
-
-main section{
-    width: 50%;
+  display: block;
+  animation: none;
+  align-content: stretch;
+  margin: auto;
 }
 
 
-@page :left {
-    bleed: 10pt;	
-  }
-  
-  @page :top {
-    bleed: 5cm;	
-  }
+main::before{
+  display: block;
+content: "Thanks for printing our menu for us! That way we don't have to so we can keep our money =)";
+width: 80%;
+margin: auto;
+margin-bottom: 0.2em;
+border: 1px solid black;
+padding: 0.1em 0.2em;
+}
 
+
+h1:first-of-type:before{
+  content: "This is our ";
+}
+
+h1:first-of-type::after{
+  content: " printed by you!";
+}
+
+h1:first-of-type{
+  text-align: center;
+}
+
+main section {
+  width: 100%;
+
+}
+
+main section article{
+  page-break-inside: avoid;
+}
+
+form, footer, input, label{
+  display: none;
+}
+
+body > header{
+  display: none;
+}
+
+main section > header{
+  border: none;
+  background: none;
+  font-size: 2em;
+  margin: none;
+  padding: none;
+}
+section article h3{
+  animation: none;
+  font-size: 1em;
+}
+
+section article h3::first-letter{
+  font-family: Arial, Helvetica, sans-serif;
 }
