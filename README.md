@@ -29,12 +29,9 @@ _You can use the provided content and HTML, or you can create your own. Of cours
 
 ## The contexts I added to the project
 
-You have to add two extra contexts to your site
+You have to add one extra contexts to your site
 
 - [x] print-stylesheet
-- [ ] prefers-reduced-motion
-- [x] dark-mode
-- [x] input type
 
 ## Two restrictions I picked
 ![rules](https://github.com/robert-hoekstra/css-to-the-rescue-1920/blob/master/images/rules.jpg?raw=true)
@@ -42,11 +39,8 @@ You have to add two extra contexts to your site
 You have to work with _at least_ two of these restrictions.
 
 - [x] Two colours
-- [x] Less than 5kb CSS *(not as an excuses for lazyness, hahaha)*
 - [x] Responsive without media queries
-- [x] Design responds to weather/time 
-- [x] Design responds to battery level
-
+- [x] When SVG meets CSS: Shapes / Masks / SVG
 
 
 ## The *Selector First* CSS Methodology
@@ -88,13 +82,15 @@ I now have a product that could go live. It is styled in a way that it is readab
 
 
 ## Day 3
-No Content 
+Today I added a form that makes it impossible for users to send in feedback. This restaurant clearly does not want to receive any feedback. I also implented the checkbox hack to display all the vegan options this restaurant has to offer...
+
 ## Day 4
-No Content
+Today I added a catch frame to the menu to check if people are actually old enough to check the menu. The user needs to enter a number above 18 in order to get rid of the display. It is amazing to see what one can build without the use of a single line of JavaScript!
+
 ## Day 5
-No Content
+Today I worked on my JavaScript application and my Weekly Nerd Repository. For tomorrow I need to make a print stylesheet to print my online menu.
 ## Day 6
-No Content
+Today I refactored my code and added a print stylesheet to the product. I discovered a feature in which you can emulate a print view in Google Chrome. That made it a lot easier to actually inspect elements and make a good stylesheet for printing purposses! I also learned some card tricks but that's something else.
 
 # Explore!
 New explorations in the world of CSS
@@ -102,26 +98,50 @@ New explorations in the world of CSS
 ## What worked
 This is a short list of stuff that is new to me and worked!
 
-* ::first-letter
 * hyphens
+* word-wrap
 * transform
 * translate
 * keyframes
-* :: Out-of-Range
-* :: In-Range
 * Blend Screen
 * Flex
 * Flex Wrap
 * SVG Background
 * Text-Transform
 * nth- of type
+* :before
+* :after
 * :focus
+* :target
+* :first-type-of
+* :input type=text
+* :valid
+* :: selection
+* :: Out-of-Range
+* :: In-Range
+* ::first-letter
+* ~ (checkbox hack)
+* @media print
+* content property;
+* page-break-inside: avoid;
+* Animated Cursor FTW!
+* Dominant-Baseline for moving svg text level on a horizontal axis
 
-## What did not work
+## What did not work (or make it to the end product)
 This is a short list of stuff that is now to me but did not work!
 
+* Making the menu a cube that can be moved
+* Making a design based on the weather without JavaScript
+* Making a design based on battery level without JavaScript
+* Spinning the whole page 360 degrees in 3600 seconds. The idea was to put menu items somewhere based on the time. So in order to read lunch easily one need to wait a few hours so the text will be level again.
+* Animating text (switching between font-families or sizes is not allowed.)
+* Make an border that acts like a retro lightbulb sign. Only lighting 1 bulb at a time in a circle did not work out.
 
+## Credits
+Special thanks to Vasilis & Vitaly for their css inspiration!
 ## Resources
 [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 [Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+[Print Stylesheet Emulate](https://developers.google.com/web/tools/chrome-devtools/css/print-preview)
+[Print Stylesheet](https://www.smashingmagazine.com/2011/11/how-to-set-up-a-print-style-sheet/)
